@@ -1,0 +1,40 @@
+.training{
+    width: 100%;
+    height: auto;
+}
+.program{
+    color: goldenrod;
+}
+
+.training-program{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.highlight-training{
+    background: goldenrod;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.col-md-6.bruce , .col-md-6.arthur{
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px !important;
+}
+
+.bruce{
+    background-image: url('../../Images/bruce-mars-gJtDg6WfMlQ-unsplash.png');
+    background-repeat: no-repeat;
+    height: 380px;
+}
+.arthur{
+    background-image: url('../../Images/arthur-edelman-qfjuh4OLdxw-unsplash.jpg');
+    background-repeat: no-repeat;
+    height: 380px;
+}

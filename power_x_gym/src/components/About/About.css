@@ -1,0 +1,17 @@
+.text-h1{
+    color: goldenrod;
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+.about{
+    width: 100%;
+    height: auto;
+}
+
+.back-img{
+    background-image: url('../../Images/cross\ -\ Copy.png');
+    background-position: right -15px;
+    background-repeat: no-repeat;
+}

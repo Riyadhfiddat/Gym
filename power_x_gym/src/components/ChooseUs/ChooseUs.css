@@ -1,0 +1,52 @@
+.chooseus .text{
+    color: #f9d94d;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.text-center{
+    font-family: 'Oswald', sans-serif;
+}
+
+.chooseus .card{
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;;
+    margin-left: 1.33%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+    border: none;
+    box-shadow: 0px 10px 10px 0px lightgray;
+    padding-bottom: 40px !important;
+    transition: all .3s ease ;
+}
+
+.chooseus .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 10px 0px lightgray;
+    border: 1px solid goldenrod;
+}
+
+.chooseus .card:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chooseus .card img{
+    width: auto;
+    height: 50px;
+    margin: 40px auto;
+}
+
+@media (max-width:775px){
+    .card{
+        width: calc(100% - 1.33%);
+    }
+}
